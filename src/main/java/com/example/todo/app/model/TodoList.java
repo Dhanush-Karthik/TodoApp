@@ -1,4 +1,4 @@
-package com.example.todo.model;
+package com.example.todo.app.model;
 
 import java.util.UUID;
 
@@ -15,7 +15,7 @@ import lombok.Data;
 @Data
 public class TodoList {
     @Id
-    @SequenceGenerator(name = "todogenerator", sequenceName = "todosgenerator", allocationSize = 1)
+    @SequenceGenerator(name = "todo_list_seq", sequenceName = "todosgenerator", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private String taskName;

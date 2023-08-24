@@ -1,4 +1,4 @@
-package com.example.todo.model;
+package com.example.todo.app.model;
 
 public class Constants {
     public static final String HIGH_PRIORITY = "HIGH_PRIORITY";

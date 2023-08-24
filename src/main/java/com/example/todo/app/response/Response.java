@@ -1,9 +1,9 @@
-package com.example.todo.response;
+package com.example.todo.app.response;
 
 import java.util.Collections;
 import java.util.List;
 
-import com.example.todo.model.TodoList;
+import com.example.todo.app.model.TodoList;
 
 import lombok.Data;
 
